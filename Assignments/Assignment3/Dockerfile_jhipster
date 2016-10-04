@@ -1,0 +1,6 @@
+FROM openjdk:8
+MAINTAINER peter.j.quinones@vanderbilt.edu
+WORKDIR "/app/jhipster-project"
+COPY /build/libs/jhipster-project-1-0.0.1-SNAPSHOT.war .
+EXPOSE 8080
+CMD java -jar jhipster-project-1-0.0.1-SNAPSHOT.war --spring.profiles.active=dev,swagger

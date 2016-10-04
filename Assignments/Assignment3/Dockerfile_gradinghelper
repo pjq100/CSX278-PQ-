@@ -1,0 +1,5 @@
+FROM hoyosjs/grading_helper
+MAINTAINER peter.j.quinones@vanderbilt.edu
+WORKDIR /app/data/
+COPY ./vunet /app/data/
+CMD ./grade.sh
