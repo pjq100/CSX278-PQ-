@@ -1,0 +1,38 @@
+{
+  "took": 212,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 2220,
+    "max_score": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "2": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "jhipster-registry-172.18.0.4:8761",
+          "doc_count": 1103
+        },
+        {
+          "key": "MyGateway-172.18.0.9:8080",
+          "doc_count": 518
+        },
+        {
+          "key": "MS1-172.18.0.14:8081",
+          "doc_count": 514
+        },
+        {
+          "key": "MS2-172.18.0.5:8082",
+          "doc_count": 85
+        }
+      ]
+    }
+  }
+}

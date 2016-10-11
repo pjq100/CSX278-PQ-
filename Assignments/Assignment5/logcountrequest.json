@@ -1,0 +1,48 @@
+{
+  "query": {
+    "filtered": {
+      "query": {
+        "query_string": {
+          "query": "*",
+          "analyze_wildcard": true
+        }
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "query": {
+                "query_string": {
+                  "analyze_wildcard": true,
+                  "query": "*"
+                }
+              }
+            },
+            {
+              "range": {
+                "@timestamp": {
+                  "gte": 1476161695448,
+                  "lte": 1476162595448,
+                  "format": "epoch_millis"
+                }
+              }
+            }
+          ],
+          "must_not": []
+        }
+      }
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "2": {
+      "terms": {
+        "field": "instance_name.raw",
+        "size": 5,
+        "order": {
+          "_count": "desc"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "query": {
+    "filtered": {
+      "query": {
+        "query_string": {
+          "query": "*INFO*",
+          "analyze_wildcard": true
+        }
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "query": {
+                "query_string": {
+                  "analyze_wildcard": true,
+                  "query": "*"
+                }
+              }
+            },
+            {
+              "range": {
+                "@timestamp": {
+                  "gte": 1476161987644,
+                  "lte": 1476162887644,
+                  "format": "epoch_millis"
+                }
+              }
+            }
+          ],
+          "must_not": []
+        }
+      }
+    }
+  },
+  "size": 0,
+  "aggs": {
+    "2": {
+      "date_histogram": {
+        "field": "@timestamp",
+        "interval": "30s",
+        "time_zone": "America/Chicago",
+        "min_doc_count": 1,
+        "extended_bounds": {
+          "min": 1476161987643,
+          "max": 1476162887643
+        }
+      }
+    }
+  }
+}

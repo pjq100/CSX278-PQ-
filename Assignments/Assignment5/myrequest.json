@@ -1,0 +1,95 @@
+{
+  "size": 0,
+  "aggs": {
+    "2": {
+      "date_histogram": {
+        "field": "@timestamp",
+        "interval": "1m",
+        "time_zone": "America/Chicago",
+        "min_doc_count": 1,
+        "extended_bounds": {
+          "min": 1476161695447,
+          "max": 1476162595447
+        }
+      },
+      "aggs": {
+        "3": {
+          "terms": {
+            "field": "instance_name.raw",
+            "size": 5,
+            "order": {
+              "1": "desc"
+            }
+          },
+          "aggs": {
+            "1": {
+              "avg": {
+                "field": "metric_value"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "query": {
+    "filtered": {
+      "query": {
+        "query_string": {
+          "query": "*",
+          "analyze_wildcard": true
+        }
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {
+              "query": {
+                "match": {
+                  "metric_name": {
+                    "query": "jvm.threads.waiting.count",
+                    "type": "phrase"
+                  }
+                }
+              },
+              "$state": {
+                "store": "appState"
+              }
+            },
+            {
+              "query": {
+                "query_string": {
+                  "analyze_wildcard": true,
+                  "query": "*"
+                }
+              }
+            },
+            {
+              "range": {
+                "@timestamp": {
+                  "gte": 1476161695448,
+                  "lte": 1476162595448,
+                  "format": "epoch_millis"
+                }
+              }
+            }
+          ],
+          "must_not": []
+        }
+      }
+    }
+  },
+  "highlight": {
+    "pre_tags": [
+      "@kibana-highlighted-field@"
+    ],
+    "post_tags": [
+      "@/kibana-highlighted-field@"
+    ],
+    "fields": {
+      "*": {}
+    },
+    "require_field_match": false,
+    "fragment_size": 2147483647
+  }
+}

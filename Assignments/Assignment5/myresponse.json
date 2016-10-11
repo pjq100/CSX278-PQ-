@@ -1,0 +1,605 @@
+{
+  "took": 44,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 60,
+    "max_score": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "2": {
+      "buckets": [
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 43
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 36
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 19
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-10T23:55:00.000-05:00",
+          "key": 1476161700000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 42
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 36
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 18
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-10T23:56:00.000-05:00",
+          "key": 1476161760000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 43
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 35
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 17
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-10T23:57:00.000-05:00",
+          "key": 1476161820000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 43
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 35
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 19
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-10T23:58:00.000-05:00",
+          "key": 1476161880000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 42
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 35
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 17
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-10T23:59:00.000-05:00",
+          "key": 1476161940000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 40
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 35
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 19
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:00:00.000-05:00",
+          "key": 1476162000000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 40
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 34
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 18
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:01:00.000-05:00",
+          "key": 1476162060000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 42
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 35
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 18
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:02:00.000-05:00",
+          "key": 1476162120000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 40
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 36
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 19
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:03:00.000-05:00",
+          "key": 1476162180000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 43
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 36
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 19
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:04:00.000-05:00",
+          "key": 1476162240000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 43
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 36
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 19
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:05:00.000-05:00",
+          "key": 1476162300000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 40
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 35
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 18
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:06:00.000-05:00",
+          "key": 1476162360000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 40
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 35
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 23
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 18
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:07:00.000-05:00",
+          "key": 1476162420000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 43
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 36
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 19
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:08:00.000-05:00",
+          "key": 1476162480000,
+          "doc_count": 4
+        },
+        {
+          "3": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "1": {
+                  "value": 42
+                },
+                "key": "MyGateway-172.18.0.9:8080",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 36
+                },
+                "key": "MS1-172.18.0.14:8081",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 22
+                },
+                "key": "MS2-172.18.0.5:8082",
+                "doc_count": 1
+              },
+              {
+                "1": {
+                  "value": 18
+                },
+                "key": "jhipster-registry-172.18.0.4:8761",
+                "doc_count": 1
+              }
+            ]
+          },
+          "key_as_string": "2016-10-11T00:09:00.000-05:00",
+          "key": 1476162540000,
+          "doc_count": 4
+        }
+      ]
+    }
+  }
+}
